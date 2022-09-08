@@ -8,7 +8,8 @@
 }
 body{
     background-image: url(bg.jpg);
-    background-size: 150%;
+    background-size: cover;
+    height:100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -16,11 +17,11 @@ body{
     align-items: center;
     display: flex;
     padding-top: 1%;
+    position: sticky;
     top: 0;
     right: 0;
     left: 0;
-    z-index: 999;
-    position: sticky;
+    z-index: 99;
     background: url(bg.jpg);
     justify-content: space-between;
 }
