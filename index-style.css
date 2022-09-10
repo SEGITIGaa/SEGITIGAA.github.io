@@ -261,7 +261,7 @@ body{
     }
     
 }
-@media screen and (min-width: 620px){
+@media screen and (min-width: 600px){
     .homepage .card-container{
         top: 775px;
         gap: 30px;
