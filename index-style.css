@@ -35,25 +35,21 @@ body{
     left: 0;
     right: 0;
     z-index: 999;
-    border: #fff solid 2px;
 }
 .navbar .logo-navbar h1{
     font-weight: 600;
     font-size: 36px;
     padding: 10% 10%;
     color: darkmagenta;
-    /* border: #aaa solid 2px; */
 }
 .link-nav{
     flex: 2 1 auto;
     padding-left: 25%;
 }
 .navbar ul{
-    /* border: #eaeaea solid 2px; */
     width: 60%;
     display: flex;
     justify-content: space-between;
-    /* border: #000 solid 2px; */
 }
 .navbar ul li{
     list-style: none;
@@ -65,7 +61,6 @@ body{
     display: flex;
     text-decoration: none;
     color: aliceblue;
-    /* border: #000 solid 2px; */
 }
 .navbar ul li a:hover{
     color: darkmagenta;
@@ -80,7 +75,6 @@ body{
     width: 100%;
 }
  .homepage .text-pembuka{
-    border: #f0e7e2 solid 2px;
     text-align: center;
     margin-top: 160px;
     padding: auto 40px;
@@ -125,9 +119,7 @@ body{
     top: 20px;
     gap: 30px;
     bottom: 100px;
-    /* top: 475px; */
     margin: 100px 0;
-    border: #f0e7e2 solid 2px;
  }
  .card-container .card-1,.card-2,.card-3{
     justify-content: center;
@@ -177,7 +169,6 @@ body{
     bottom: 0;
     left: 0;
     top:1500%;
-    border: #eaeaea solid 2px; ;
 }
 .text-footer {
     gap: 30px;
