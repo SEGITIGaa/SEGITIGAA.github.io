@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Noto+Sans+Avestan&family=Oswald&family=Poppins&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Noto+Sans+Avestan&family=Oswald&family=Poppins&family=Roboto+Mono:wght@500&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Stalinist+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: #28104e;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    width: 100%;
+    z-index: -99;
+}
+nav h1{
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    bottom: 18%;
+    color: #deacf5;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+nav a{
+    position: absolute;
+    color: #fefefe ;
+    left: 4%;
+    top: 5%;
+}
+nav a:hover{
+    color: #deacf5;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.reg{
+    z-index: 99;
+    display: flex;
+    background: #fefefe;
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 120px 0px 0px 0px ;
+}
+.reg h1{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 15%;
+}
+
+.reg form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-bottom: 2%;
+    margin-top: 7%;
+    /* border: 2px solid ; */
+}
+/* .reg form::placeholder{
+    font-size: 38px;
+    m
+} */
+.reg form input{
+    padding: 3%;
+    margin: 8px;
+    background: transparent;
+    border:none;
+    border-bottom: #28104e 3px solid;
+    box-shadow: #0000 8px;
+    color: #28104e;
+}
+.reg form .button{
+    margin-top: 6%;
+    border-radius: 10px;
+    border: none;
+    background-color: #28104e;
+    color: #deacf5;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.reg form .button:hover{
+    background-color: #6237a0;
+    color: #28104e;
+    font-weight: 700;
+}
+.reg h4{
+    font-weight: 600;
+    margin-bottom: 30px ;
+}
+.reg h4 a{
+    text-decoration: none;
+    color: #28104e;
+}
+@media screen and (max-width: 700px){
+    nav h1{
+        bottom: 20%;
+    }
+    .reg{
+        top: 35%;
+        bottom: 20%;
+    }
+    .reg form{
+        width: 65%;
+    }
+    form input{
+        
+        width: 100%;
+        margin: 120px auto;
+    }
+    
+}
+@media screen and (max-width: 650px){
+    nav h1{
+        bottom: 20%;
+    }
+    .reg{
+        top: 25%;
+        bottom: 20%;
+
+    }
+    .reg form{
+        margin-top: 35%;
+        width: 65%;
+    }
+    form input{
+        
+        width: 100%;
+        margin: 120px auto;
+    }
+    
+}
+@media screen and (max-width: 450px){
+    .reg{
+        top: 35%;
+        bottom: 20%;
+
+    }
+}
